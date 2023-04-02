@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* 商品一覧 */
+.merchandise {
+  margin-top: 50px;
+}
+
+.merchandise-box {
+  margin: auto;
+  width: 100%;
+}
+
+.merchandise-box tr {
+  height: 50px;
+}
+
+.merchandise-box th {
+  text-align: center;
+}
+
+.merchandise-box td {
+  text-align: center;
+}
+
+.number,
+.name,
+.category,
+.nickname,
+.register,
+.update,
+.price,
+.detail {
+  background-color: #00AEEF;
+}
+
+.space {
+  width: 100px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+}
+
+.search-btn {
+  background-color: #F68B1E;
+  color: #fff;
+}
+
+/* 詳細画面 */
+.detail {
+  margin-top: 50px;
+}
+
+.detail-box {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.detail-box tr {
+  height: 50px;
+}
+
+.detail-box th {
+  text-align: center;
+}
+
+/* 文字を真ん中に */
+.number02,
+.name02,
+.category02,
+.nickname02,
+.register02,
+.update02,
+.price02 {
+  text-align: center;
+}
+
+
+.number02,
+.name02,
+.category02,
+.nickname02,
+.register02,
+.update02,
+.price02,
+.detail02 {
+  background-color: #fff;
+}
+
+.back {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.back button {
+  background-color: #FFF450;
+  width: 80px;
+}
+
+/* 共通部分 */
+
+h3 {
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
